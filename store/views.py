@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, ViewCustomerHistoryPermission
 from store.pagination import DefaultPagination
 from django.db.models.aggregates import Count
@@ -151,3 +152,8 @@ class ProductImageViewSet(ModelViewSet):
 
     def get_queryset(self):
         return ProductImage.objects.filter(product_id=self.kwargs['product_pk'])
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9

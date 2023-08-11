@@ -1,4 +1,5 @@
 from django.shortcuts import render
+<<<<<<< HEAD
 # from django.core.cache import cache
 # from django.utils.decorators import method_decorator
 # from django.views.decorators.cache import cache_page
@@ -21,3 +22,12 @@ class HOME_VIEW(APIView):
             logger.critical('httpbin  is offline')
         return render(request, 'hello.html', {'name': 'data'})
 
+=======
+from django.http import HttpResponse
+
+
+# Create your views here.
+def say_hello(request):
+    x=1
+    return render(request, 'hello.html', {'name': 'umar'})
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9

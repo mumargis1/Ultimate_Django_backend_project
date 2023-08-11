@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 django = "*"
 django-debug-toolbar = "*"
+<<<<<<< HEAD
 djangorestframework = "*"
 drf-nested-routers = "*"
 django-filter = "*"
@@ -34,3 +35,10 @@ django-silk = "*"
 
 [requires]
 python_version = "3.10.12"
+=======
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9

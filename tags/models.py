@@ -3,6 +3,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
 
 
+<<<<<<< HEAD
 class TaggedItemManager(models.Manager):
     def get_tags_for(self, obj_type, obj_id):
         content_type = ContentType.objects.get_for_model(obj_type)
@@ -14,17 +15,28 @@ class TaggedItemManager(models.Manager):
                 object_id=obj_id
             )
 
+=======
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9
 
 class Tag(models.Model):
     label = models.CharField(max_length=255)
 
+<<<<<<< HEAD
     def __str__(self) -> str:
         return self.label
 
 
 class TaggedItem(models.Model):
     objects = TaggedItemManager()
+=======
+
+class TaggedItem(models.Model):
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9
     tag = models.ForeignKey(Tag, on_delete=models.CASCADE)
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()
+<<<<<<< HEAD
+=======
+
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9

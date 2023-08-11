@@ -1,7 +1,11 @@
 {
+<<<<<<< HEAD
     "python.testing.pytestArgs": [
         "."
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
+=======
+    "python.pythonpath": "C:\Users\mumar\.virtualenvs\storefront-UBhvEh9C\Scripts\python.exe"
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9
 }

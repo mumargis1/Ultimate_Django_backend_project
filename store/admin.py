@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.contrib import admin, messages
 from django.db.models.aggregates import Count
 from django.db.models.query import QuerySet
@@ -128,3 +129,8 @@ class OrderAdmin(admin.ModelAdmin):
     autocomplete_fields = ['customer']
     inlines = [OrderItemInline]
     list_display = ['id', 'placed_at', 'customer']
+=======
+from django.contrib import admin
+
+# Register your models here.
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9
