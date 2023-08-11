@@ -6,8 +6,39 @@ name = "pypi"
 [packages]
 django = "*"
 django-debug-toolbar = "*"
+<<<<<<< HEAD
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+pillow = "*"
+django-cors-headers = "*"
+django-templated-mail = "*"
+redis = "*"
+celery = "*"
+flower = "*"
+pytest = "*"
+model-bakery = "*"
+django-silk = "*"
+django-redis = "*"
+whitenoise = "*"
+gunicorn = "*"
+
+[dev-packages]
+autopep8 = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-watch = "*"
+locust = "*"
+django-silk = "*"
+
+[requires]
+python_version = "3.10.12"
+=======
 
 [dev-packages]
 
 [requires]
 python_version = "3.10"
+>>>>>>> a77aecced6d01cf351118df2ea482b17fbe03da9
